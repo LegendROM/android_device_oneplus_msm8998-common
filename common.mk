@@ -247,8 +247,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     org.ifaa.android.manager
 
-PRODUCT_BOOT_JARS += \
-    org.ifaa.android.manager
+#PRODUCT_BOOT_JARS += \
+#    org.ifaa.android.manager
 
 # IRQ
 PRODUCT_COPY_FILES += \
@@ -387,9 +387,6 @@ PRODUCT_PACKAGES += \
     qti_telephony_hidl_wrapper.xml \
     qti-telephony-utils \
     qti_telephony_utils.xml \
-    telephony-ext
-
-PRODUCT_BOOT_JARS += \
     telephony-ext
 
 PRODUCT_COPY_FILES += \
